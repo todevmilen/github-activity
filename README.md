@@ -86,3 +86,5 @@ Run the application with a GitHub username as an argument:
 [todevmilen](https://github.com/todevmilen)
 
 Enjoy using **GitHub Activity** to keep track of user activity! 🚀
+
+This project is part of [Roadmap.sh Projects](https://roadmap.sh/projects/github-user-activity)
