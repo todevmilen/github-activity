@@ -41,6 +41,10 @@ func main() {
 		log.Fatalln(err)
 	}
 
+	if resp.StatusCode == 404 {
+		log.Fatalln("Could not find repository")
+	}
+
 	body, err := io.ReadAll(resp.Body)
 	if err != nil {
 		log.Fatalln(err)
